@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Barra de Navegación */
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+header nav ul a {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 14px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+header ul a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    margin-top: 260px;
+}
+
+#hero h2 {
+    color: yellow;
+    font-size: 80px;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#hero button {
+    background: yellow;
+    color: gray;
+    font-size: 32px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#planes{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    padding: 120px 0%;
+    text-align: center;
+}
+
+#planes h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#planes p{
+    font-size: 22px;
+}
+
+#planes .fila{
+    width: 100%;
+    display: flex;
+    margin-top: 67px;
+    justify-content: space-around;
+    
+}
+
+#planes article{
+    position: relative;
+}
+
+#planes article img{
+    transition: .4s;
+}
+
+#planes article img:hover{
+    transform: scale(0.9);
+    border-radius: 50%;
+}
+
+#planes article h3{
+    position: absolute;
+    color: yellow;
+    top: 110px;
+    text-align: center;
+    width: 100%;
+}
+
+#destinos{
+    background: url(../img/bg-destinos.png) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+    text-align: center;
+}
+
+
+#destinos h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: yellow;
+}
+
+#fila1,
+#fila2{
+    display: flex;
+    justify-content: center;
+}
+
+#destinos article{
+    margin: 30px 150px;
+    text-align: center;
+}
+
+#destinos article h3 {
+    color: yellow;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#contacto {
+    background-color: yellow;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#contacto p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto input, #contacto select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+#contacto button {
+    padding: 12px 20px;
+    font-size: 20px;
+    background-color: gray;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 16px;
+}
